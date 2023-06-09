@@ -1,0 +1,20 @@
+{
+  "name": "minecraftlauncher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron . --unhandled-rejections=strict"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.0.0"
+  },
+  "dependencies": {
+    "fswin": "^3.23.119",
+    "minecraft-launcher-core": "^3.16.18",
+    "minecraft-versions": "^0.0.1"
+  }
+}
